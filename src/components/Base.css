@@ -1,0 +1,32 @@
+.detail{
+  box-shadow: 0 0 32px rgba(244, 45, 45, 0.1);
+  padding:24px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.icon{
+  width:24px;
+  height:24px;
+  stroke: aquamarine;
+  margin-left: 1 rem;
+  cursor: pointer;
+  position: static;
+
+}
+.title{
+font-size: 24px;
+font-weight: 500;
+
+}
+.hidden-box{
+  grid-column: 1;
+  margin-top: 20px;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
